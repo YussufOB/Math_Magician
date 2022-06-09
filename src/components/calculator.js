@@ -11,7 +11,7 @@ class Calculator extends Component {
     return (
       <div className="container">
         <div className="display_board">0</div>
-        <button type="button" className="btn">AC</button>
+        <button type="button" className="btn">DAC</button>
         <button type="button" className="btn">+/-</button>
         <button type="button" className="btn">%</button>
         <button type="button" className="btn operator">÷</button>
