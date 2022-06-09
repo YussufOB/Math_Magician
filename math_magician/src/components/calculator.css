@@ -1,0 +1,52 @@
+.container {
+  background-color: grey;
+  display: grid;
+  width: 30vw;
+  height: 60vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.display_board {
+  grid-column: 1 / -1;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.btn {
+  all: unset;
+  display: grid;
+  place-content: center;
+  background-color: #ccc;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+.btn:active {
+  background-color: black;
+}
+
+.operator {
+  background-color: #f3913e;
+}
+
+.operator:hover {
+  background-color: #ff4300;
+}
+
+.operator:active {
+  background-color: #d30000;
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
