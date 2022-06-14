@@ -1,7 +1,18 @@
+.calculator_parent {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 60vw;
+}
+
+.calculator_heading {
+  font-size: 2.5rem;
+}
+
 .container {
   background-color: grey;
   display: grid;
-  width: 30vw;
+  width: 60%;
   height: 60vh;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
@@ -49,4 +60,16 @@
 
 .zero {
   grid-column: 1 / span 2;
+}
+
+@media (max-width: 468px) {
+  .calculator_parent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 80vw;
+  }
 }
