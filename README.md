@@ -42,7 +42,7 @@ You may also see any lint errors in the console.
 
 ### Run the project in your local machine
 
-- Clone the repository (Procedure)
+- Clone the repositor
 ```
   git clone https://github.com/YussufOB/math_magician
 
